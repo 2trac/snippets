@@ -1,8 +1,4 @@
-
-### basic administration
-
-
-- Server administration
+### Server administration
 
 `````
 # ---
@@ -35,7 +31,7 @@ sudo firewall-cmd --list-all
 
 `````
 
-- Mysql administration 
+### Mysql administration 
 
 `````
 # ---
