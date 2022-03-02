@@ -6,13 +6,13 @@
 # ---
 
 # ---
-# on host check connection - 3306 default port mysql
+# on the host check connection - 3306 default port mysql
 # ---
 
 netstat -ntl | grep 3306
 
 # ---
-# on host enable remote connection on config mysql
+# on the host enable remote connection on config mysql
 # 0.0.0.0 for all remote connections or specify an address
 # ---
 
