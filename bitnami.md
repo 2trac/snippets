@@ -24,7 +24,7 @@ sudo /opt/bitnami/ctlscript.sh restart apache
 vim /opt/bitnami/apache/conf/bitnami/bitnami-ssl.conf
 
 <VirtualHost *:443>
-    ServerName painel.confiance.digital
+    ServerName your_domain.com
 
     SSLEngine on
     SSLCertificateFile "/opt/bitnami/apache/conf/your_certificate.crt"
