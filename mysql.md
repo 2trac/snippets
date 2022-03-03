@@ -66,6 +66,17 @@ GRANT SELECT, INSERT, UPDATE ON database_name.* TO 'local_user'@'localhost';
 
 `````
 
+### full text
 
+````
+# ---
+# full text search - column setup / example search term
+# ---
+ALTER TABLE TABLE_NAME CREATE INDEX COLUMN_NAME VISIBLE;
+ALTER TABLE TABLE_NAME ADD FULLTEXT(COLUMN_NAME);
+
+SELECT * FROM TABLE_NAME WHERE MATCH(COLUMN_NAME) AGAINST ('term') 
+
+````
 
 
